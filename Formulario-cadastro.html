@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>Cadastro IFSC</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+<div class = "container"> 
+		<div class="row">
+			<div class = "card">
+				<div class="card-body">
+					<form id="form-contato">
+						
+						<h1>Cadastro</h1>
+						<div class="row">
+							<div class="form-group col-md-6">
+								<label for="nome">Nome</label>
+								<input class = "form-control" type="text" id="nome" placeholder="entre com o nome">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="sobremone">Sobrenome</label>
+								<input class = "form-control" type="text" id="sobrenome" placeholder="entre com o sobrenome">
+							</div>
+						</div>
+						<div class = "row">
+							<div class="form-group col-md-4">
+								<label for="cpf">CPF</label>
+								<input class = "form-control" type="text" id="logradouro" placeholder ="entre com cpf">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="datadenasciemnto">Data de Nascimento</label>
+								<input class = "form-control" type="text" id="datadenasciemnto" placeholder="mn/mn/mn">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="sexo">Sexo</label>
+						 		<select class="form-select" aria-label="Default select example">
+									<option selected>Selecione</option>
+									<option value="1">Masculino</option>
+									<option value="2">Feminino</option>
+								</select>
+							</div>
+							</div>
+						<div class="row">
+							<div class="form-group col-md-6">
+								<label for="Telefone">Telefone</label>
+								<input class = "form-control" type="text" id="Telefone" placeholder="(99) 9 99999999">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="civil">Estado Civil</label>
+						 		<select class="form-select" aria-label="Default select example">
+									<option selected>Selecione</option>
+									<option value="1">Solteiro(a)</option>
+									<option value="2">Casado(a)</option>
+									<option value="1">Divorciado(a)</option>
+									<option value="2">Viúvo(a)</option>
+								</select>
+							</div>
+						</div>
+						<h5>Endereço:</h5>
+						<div class = "row">
+							<div class="form-group col-md-4">
+								<label for="logradouro">Logradouro</label>
+								<input class = "form-control" type="text" id="logradouro" placeholder ="entre com logradouro">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="numero">Número</label>
+								<input class = "form-control" type="text" id="numero" placeholder ="entre com o número">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="Complemento">Complemento</label>
+								<input class = "form-control" type="text" id="Complemento">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-md-6">
+								<label for="estado">Estado</label>
+						 		<select class="form-select" aria-label="Default select example">
+									<option selected>Selecione</option>
+									<option value="1">A</option>
+									<option value="2">Preguiça</option>
+									<option value="1">é</option>
+									<option value="2">Maior</option>
+								</select>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="cidade">Cidade</label>
+								<input class = "form-control" type="text" id="cidade">
+							
+							</div>
+						</div>
+						<div class="form-group col-md-8">
+							<label for="observacoes" class="form-label">Complemento</label>
+							<textarea class="form-control" id="observacoes" rows="1"></textarea>
+						</div>
+						<h5>Login:</h5>
+						<div class="form-group col-md-3">
+							<label for="usuario">Usuário</label>
+							<input class = "form-control" type="text" id="usuario" placeholder ="ex: João586">
+						</div>
+						<div class="row">
+							<div class="form-group col-md-6">
+								<label for="email">E-mail</label>
+								<input class = "form-control" type="text" id="email" placeholder ="entre com o e-mail">
+							</div>
+							<div class="form-group col-md-6">
+							<label for="senha">Senha</label>
+							<input class = "form-control" type="text" id="senha" placeholder ="*************">
+						</div>
+						</div>
+						<div class="form-group" class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="termos">
+							  <label class="form-check-label" for="termos">Aceito os Termos</label>
+						</div>
+						<div class="form-group" class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							  <label class="form-check-label" for="flexCheckDefault">Desejo receber mais informações</label>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-success">Cadastro</button>
+						</div>	
+
+				</form>	
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/formulario.js"></script>
+
+</body>
+</html>
